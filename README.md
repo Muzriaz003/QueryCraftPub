@@ -30,17 +30,14 @@ Microsoft ODBC Driver for SQL Server
 Installation
 Clone the repository:
 
-Bash
 
 git clone https://github.com/Muzriaz003/QueryCraftPub.git
 cd QueryCraftPub
 Install dependencies:
 
-Bash
 
 pip install streamlit pandas sqlalchemy pyodbc xlsxwriter
 Running the App
-Bash
 
 streamlit run streamlit_app.py
 📝 How to Use
@@ -48,7 +45,6 @@ Enter your Server and Database details in the sidebar.
 
 In the query editor, define your sheets using the following syntax:
 
-SQL
 
 -- sheet: Summary
 SELECT COUNT(*) as TotalSales FROM Sales.SalesOrderHeader;
